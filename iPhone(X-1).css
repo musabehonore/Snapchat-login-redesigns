@@ -1,0 +1,414 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(HelveticaNeue-font.ttf)
+}
+
+.general-grid {
+  display: block;
+  position: absolute;
+
+
+
+}
+
+.header1 {
+  font-family: HelveticaNeue;
+  font-weight: 400;
+  color: #aeadad;
+  font-size: 12px;
+  margin-bottom: -7px;
+  margin-left: 9px;
+  margin-top: 0px;
+
+}
+
+.header {
+  font-family: HelveticaNeue;
+  font-weight: 400;
+  color: #aeadad;
+  font-size: 12px;
+  margin-bottom: -7px;
+  margin-left: 9px;
+  margin-top: 0px;
+
+}
+
+body {
+  background-color: #e4e1e1be;
+  height: 1000px;
+}
+
+.general-box {
+
+  width: 605px;
+  height: 1310px;
+  position: absolute;
+  margin-left: 1700px;
+  margin-top: 45px;
+
+  background-color: white;
+  font-family: HelveticaNeue;
+  font-weight: 400;
+  border-radius: 50px;
+
+
+}
+
+.welcome-back {
+  left: 151px;
+  top: 215px;
+  position: absolute;
+  color: black;
+  font-size: 39px;
+
+
+  word-wrap: break-word
+}
+
+.forget-password {
+  left: 385px;
+  top: 750px;
+  position: absolute;
+  color: #0D46D9;
+  font-size: 16px;
+
+
+  word-wrap: break-word
+}
+
+.trouble-logging {
+  left: 224px;
+  top: 440px;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+
+
+  word-wrap: break-word
+}
+
+
+
+.username-box {
+  height: 19px;
+  left: 56px;
+  top: 372px;
+  position: absolute
+}
+
+.username1 {
+  left: 0.50px;
+  top: 0px;
+  position: absolute;
+  color: #BBBBBB;
+  font-size: 19px;
+
+
+  white-space: nowrap;
+}
+
+
+
+.or {
+  left: 270px;
+  top: 515px;
+  position: absolute;
+  color: #BBBBBB;
+  font-size: 29px;
+
+
+  word-wrap: break-word
+}
+
+.log-in-box {
+  width: 368px;
+  height: 78px;
+  left: 114px;
+  top: 327px;
+  position: absolute;
+  background: black;
+  border-radius: 50px
+}
+
+.log-in-textbox {
+  left: 175px;
+  top: 348px;
+  position: absolute;
+  color: rgba(255, 252, 0, 1);
+  font-size: 29px;
+
+
+
+  word-wrap: break-word
+}
+
+
+.top-box {
+  width: 605px;
+  height: 142px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #FFFC00;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.logo {
+
+  left: 423px;
+  top: 4px;
+  position: absolute;
+  background: #FFFC00;
+  border-radius: 28px;
+}
+
+.password-box {
+  height: 19px;
+  left: 56px;
+  top: 434px;
+  position: absolute
+}
+
+.underline2 {
+  width: 424px;
+  height: 0px;
+  left: 0px;
+  top: 19px;
+  position: absolute;
+  border: 1px black solid
+}
+
+.password {
+  left: 0.50px;
+  top: 0px;
+  position: absolute;
+  color: #BBBBBB;
+  font-size: 19px;
+
+
+  word-wrap: break-word
+}
+
+/* Login box  
+.
+.
+.
+*/
+
+.login-container {
+  position: relative;
+  background-color: transparent;
+  padding: 50px;
+
+  width: 436px;
+
+  text-align: center;
+  margin-top: 280px;
+}
+
+.username-label {
+  position: absolute;
+  margin-top: -75px;
+  margin-left: 60px;
+  pointer-events: none;
+  transition: 0.5s;
+  z-index: 3;
+  background-color: white;
+  color: #BBBBBB;
+  font-size: 19px;
+
+}
+
+
+
+.input-field1 {
+  width: 100%;
+  padding: 16px;
+  margin-top: 220px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  font-size: 19px;
+  font-weight: 800;
+  box-sizing: border-box;
+  transition: border-color 0.3s, padding-top 0.3s;
+}
+
+.input-field2 {
+  width: 100%;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  margin-left: 50px;
+
+  box-sizing: border-box;
+  transition: border-color 0.3s, padding-top 0.3s;
+}
+
+.login-button {
+  position: absolute;
+  width: 368px;
+  height: 78px;
+  left: 128px;
+  top: 542px;
+  font-size: 27px;
+  font-weight: 600;
+
+  background-color: #BBBBBB;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+span {
+  position: absolute;
+
+  margin-top: -76px;
+  margin-left: -180px;
+  background-color: white;
+  z-index: 3;
+  font-size: 15px;
+  color: #BBBBBB;
+  width: 480px;
+  text-align: left;
+  padding-left: 21px;
+
+}
+
+.some-box1 {
+  position: absolute;
+  width: 428px;
+  height: 55px;
+  margin-top: -170px;
+  margin-left: 50px;
+  padding-left: -1px;
+  background-color: transparent;
+  z-index: 2;
+  border: 4px solid white;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  pointer-events: none;
+
+}
+
+.some-box2 {
+  position: absolute;
+  width: 428px;
+  height: 51px;
+  margin-top: -69px;
+  background-color: transparent;
+  margin-left: 50px;
+  padding-left: -1px;
+
+
+
+  z-index: 2;
+  border: 4px solid white;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  pointer-events: none;
+}
+
+.input-field2:valid+.login-button {
+  background-color: rgba(255, 252, 0, 1);
+  color: black
+}
+
+.input-field1:focus+.username-label,
+.input-field1:valid+.username-label {
+  margin-top: -97px;
+  font-size: 15px;
+}
+
+.sign-up {
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 120px;
+
+  font-size: 16px;
+}
+
+.if-you {
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 186px;
+
+  font-size: 16px;
+  color: #626262;
+}
+
+/*Other elements starting from vector numero 6*/
+
+.vector6 {
+  width: 274px;
+  height: 274px;
+  margin-left: 250px;
+  margin-top: 285px;
+}
+
+.vector61 {
+  width: 100%;
+}
+
+.redesign {
+  width: 1299px;
+  height: 284px;
+  margin-left: 250px;
+  margin-top: -90px;
+}
+
+.redesign1 {
+  width: 100%;
+  background: linear-gradient(to right, yellow, yellow,yellow, #FDFCA9,yellow, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  font-size: 144px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  line-height: 142px;
+  word-wrap: break-word;
+  padding-bottom: 15px;
+}
+
+.seven-mins {
+  width: 317px;
+  height: 150px;
+  position: absolute;
+
+}
+
+.the-mins {
+  position: absolute;
+  width: 216px;
+  height: 47px;
+  margin-top: 100px;
+  margin-left: 310px;
+  z-index: 700;
+
+
+
+
+}
+
+.the-mins1 {
+  color: black;
+  font-size: 48px;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 47.18px;
+  word-wrap: break-word;
+  z-index: 700;
+  white-space: nowrap;
+
+
+}
+
+.figma1 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 634px;
+}

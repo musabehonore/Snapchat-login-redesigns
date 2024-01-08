@@ -1,0 +1,17 @@
+.general-grid{
+  display: block;
+  position: absolute;
+  
+  
+}
+
+.header1{
+  font-family: HelveticaNeue;
+  font-weight: 400;
+  color: #aeadad;
+  font-size: 12px;
+  margin-bottom: -7px;
+  margin-left: 9px;
+  margin-top: 0px;
+
+}
